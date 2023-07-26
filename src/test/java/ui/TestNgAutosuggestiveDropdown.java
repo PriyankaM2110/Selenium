@@ -21,6 +21,7 @@ public class TestNgAutosuggestiveDropdown {
 		driver.manage().window().maximize();
 		WebElement From = driver.findElement(By.xpath("//input[@id='ctl00_mainContent_ddl_originStation1_CTXT']"));
 		From.click();
+		System.out.println("something");
 		From.sendKeys("sa");
 		From.sendKeys(Keys.ARROW_DOWN);
 		From.sendKeys(Keys.ENTER);
