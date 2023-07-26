@@ -21,6 +21,7 @@ public class Alerts {
 		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().accept();
 		Thread.sleep(3000);
+		System.out.println("Priyanka");
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		WebElement getPrompt = driver.findElement(By.xpath("//input[@id='prompt']"));
